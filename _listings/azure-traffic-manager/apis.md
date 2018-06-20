@@ -6,10 +6,10 @@ description: 'Azure Traffic Manager gives you three methods for traffic routing:
   application or scenario.'
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-traffic-improved-application-performance.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Profiles
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/profiles/master/_listings/azure-traffic-manager/apis.md
 specificationVersion: "0.14"
 apis:
@@ -23,7 +23,7 @@ apis:
   tags: Profiles Traffic Manager Relative Dns Name Availability
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/profiles/master/_listings/azure-traffic-manager/providersmicrosoftnetworkchecktrafficmanagernameavailability-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/profiles/master/_listings/azure-traffic-manager/providersmicrosoft-networkchecktrafficmanagernameavailability-post-openapi.md
 - name: Azure Traffic Manager API Profiles List By In Resource Group
   x-api-slug: azure-traffic-manager-api
   description: Lists all Traffic Manager profiles within a resource group.
@@ -33,9 +33,9 @@ apis:
   tags: Profiles
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/profiles/master/_listings/azure-traffic-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworktrafficmanagerprofiles-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/profiles/master/_listings/azure-traffic-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-networktrafficmanagerprofiles-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/profiles/master/_listings/azure-traffic-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworktrafficmanagerprofiles-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/profiles/master/_listings/azure-traffic-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-networktrafficmanagerprofiles-get-openapi.md
 - name: Azure Traffic Manager API Profiles List All
   x-api-slug: azure-traffic-manager-api
   description: Lists all Traffic Manager profiles within a subscription.
@@ -45,9 +45,9 @@ apis:
   tags: Profiles
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/profiles/master/_listings/azure-traffic-manager/subscriptionssubscriptionidprovidersmicrosoftnetworktrafficmanagerprofiles-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/profiles/master/_listings/azure-traffic-manager/subscriptionssubscriptionidprovidersmicrosoft-networktrafficmanagerprofiles-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/profiles/master/_listings/azure-traffic-manager/subscriptionssubscriptionidprovidersmicrosoftnetworktrafficmanagerprofiles-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/profiles/master/_listings/azure-traffic-manager/subscriptionssubscriptionidprovidersmicrosoft-networktrafficmanagerprofiles-get-openapi.md
 - name: Azure Traffic Manager API Profiles Get
   x-api-slug: azure-traffic-manager-api
   description: Gets a Traffic Manager profile.
@@ -57,9 +57,9 @@ apis:
   tags: Profiles
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/profiles/master/_listings/azure-traffic-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworktrafficmanagerprofilesprofilename-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/profiles/master/_listings/azure-traffic-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-networktrafficmanagerprofilesprofilename-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/profiles/master/_listings/azure-traffic-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworktrafficmanagerprofilesprofilename-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/profiles/master/_listings/azure-traffic-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-networktrafficmanagerprofilesprofilename-get-openapi.md
 - name: Azure Traffic Manager API Profiles Create Or Update
   x-api-slug: azure-traffic-manager-api
   description: Create or update a Traffic Manager profile.
@@ -69,7 +69,7 @@ apis:
   tags: Profiles
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/profiles/master/_listings/azure-traffic-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworktrafficmanagerprofilesprofilename-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/profiles/master/_listings/azure-traffic-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-networktrafficmanagerprofilesprofilename-put-openapi.md
 - name: Azure Traffic Manager API Profiles Delete
   x-api-slug: azure-traffic-manager-api
   description: Deletes a Traffic Manager profile.
@@ -79,9 +79,9 @@ apis:
   tags: Profiles
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/profiles/master/_listings/azure-traffic-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworktrafficmanagerprofilesprofilename-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/profiles/master/_listings/azure-traffic-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-networktrafficmanagerprofilesprofilename-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/profiles/master/_listings/azure-traffic-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworktrafficmanagerprofilesprofilename-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/profiles/master/_listings/azure-traffic-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-networktrafficmanagerprofilesprofilename-delete-openapi.md
 - name: Azure Traffic Manager API Profiles Update
   x-api-slug: azure-traffic-manager-api
   description: Update a Traffic Manager profile.
@@ -91,7 +91,7 @@ apis:
   tags: Profiles
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/profiles/master/_listings/azure-traffic-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworktrafficmanagerprofilesprofilename-patch-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/profiles/master/_listings/azure-traffic-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-networktrafficmanagerprofilesprofilename-patch-openapi.md
 - name: Azure Traffic Manager API
   x-api-slug: azure-traffic-manager-api
   description: 'Azure Traffic Manager gives you three methods for traffic routing:

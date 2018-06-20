@@ -4,7 +4,7 @@ x-collection-name: Site24x7
 x-complete: 1
 info:
   title: Threshold Profile API
-  description: the-threshold-profile-api
+  description: the-threshold-profile-api-
   version: 1.0.0
 host: www.site24x7.com.
 schemes:

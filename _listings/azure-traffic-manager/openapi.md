@@ -19,7 +19,7 @@ paths:
       summary: Profiles Check Traffic Manager Relative Dns Name Availability
       description: Checks the availability of a Traffic Manager Relative DNS name.
       operationId: Profiles_CheckTrafficManagerRelativeDnsNameAvailability
-      x-api-path-slug: providersmicrosoftnetworkchecktrafficmanagernameavailability-post
+      x-api-path-slug: providersmicrosoft-networkchecktrafficmanagernameavailability-post
       parameters:
       - in: query
         name: No Name
@@ -39,7 +39,7 @@ paths:
       summary: Profiles List By In Resource Group
       description: Lists all Traffic Manager profiles within a resource group.
       operationId: Profiles_ListByInResourceGroup
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworktrafficmanagerprofiles-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-networktrafficmanagerprofiles-get
       parameters:
       - in: query
         name: No Name
@@ -57,7 +57,7 @@ paths:
       summary: Profiles List All
       description: Lists all Traffic Manager profiles within a subscription.
       operationId: Profiles_ListAll
-      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoftnetworktrafficmanagerprofiles-get
+      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoft-networktrafficmanagerprofiles-get
       parameters:
       - in: query
         name: No Name
@@ -71,7 +71,7 @@ paths:
       summary: Profiles Get
       description: Gets a Traffic Manager profile.
       operationId: Profiles_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworktrafficmanagerprofilesprofilename-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-networktrafficmanagerprofilesprofilename-get
       parameters:
       - in: query
         name: No Name
@@ -91,7 +91,7 @@ paths:
       summary: Profiles Create Or Update
       description: Create or update a Traffic Manager profile.
       operationId: Profiles_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworktrafficmanagerprofilesprofilename-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-networktrafficmanagerprofilesprofilename-put
       parameters:
       - in: query
         name: No Name
@@ -117,7 +117,7 @@ paths:
       summary: Profiles Delete
       description: Deletes a Traffic Manager profile.
       operationId: Profiles_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworktrafficmanagerprofilesprofilename-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-networktrafficmanagerprofilesprofilename-delete
       parameters:
       - in: query
         name: No Name
@@ -137,7 +137,7 @@ paths:
       summary: Profiles Update
       description: Update a Traffic Manager profile.
       operationId: Profiles_Update
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworktrafficmanagerprofilesprofilename-patch
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-networktrafficmanagerprofilesprofilename-patch
       parameters:
       - in: query
         name: No Name

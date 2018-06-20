@@ -1,16 +1,14 @@
 ---
 name: PayPal
 x-slug: paypal
-description: PayPal is an online payments and money transfer service that allows you
-  to send money via email, phone, text message or Skype. They offer products to both
-  individuals and businesses alike, including online vendors, auction sites and corporate
-  users. PayPal connects effortlessly to bank accounts and credit cards.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
+description: PayPal is the faster, safer way to send money, make an online payment,
+  receive money or set up a merchant account.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "71"
 tags: Profiles
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/profiles/master/_listings/paypal/apis.md
 specificationVersion: "0.14"
 apis:
@@ -18,7 +16,7 @@ apis:
   x-api-slug: paypal
   description: Use the GetAdvancedPersonalData API operation to obtain sensitive personal
     data for an account holder.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com////Permissions/GetAdvancedPersonalData
   tags: Payments,Profiles
@@ -29,7 +27,7 @@ apis:
   x-api-slug: paypal
   description: Use the GetBasicPersonalData API operation to obtain basic personal
     data for an account holder.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com////Permissions/GetBasicPersonalData
   tags: Payments,Profiles
@@ -38,12 +36,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/profiles/master/_listings/paypal/permissionsgetbasicpersonaldata-post-openapi.md
 - name: Paypal
   x-api-slug: paypal
-  description: PayPal is an online payments and money transfer service that allows
-    you to send money via email, phone, text message or Skype. They offer products
-    to both individuals and businesses alike, including online vendors, auction sites
-    and corporate users. PayPal connects effortlessly to bank accounts and credit
-    cards.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
+  description: PayPal is the faster, safer way to send money, make an online payment,
+    receive money or set up a merchant account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com//
   tags: Profiles
@@ -53,6 +48,8 @@ apis:
 x-common:
 - type: x-base-url
   url: https://api.paypal.com
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/paypal
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/paypal
 - type: x-developer

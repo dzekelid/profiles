@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Buffer
 x-complete: 1
@@ -177,19 +176,3 @@ paths:
       tags:
       - Profiles
       - IdmediaTypeExtension
-  /profiles{mediaTypeExtension}:
-    get:
-      summary: Get Profiles Mediatypeextension
-      description: Returns an array of social media profiles connected to a users
-        account.
-      operationId: returns-an-array-of-social-media-profiles-connected-to-a-users-account-
-      x-api-path-slug: profilesmediatypeextension-get
-      parameters:
-      - in: path
-        name: mediaTypeExtension
-      responses:
-        200:
-          description: OK
-      tags:
-      - ProfilesmediaTypeExtension
----

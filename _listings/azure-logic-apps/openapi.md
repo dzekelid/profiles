@@ -1,0 +1,15 @@
+swagger: "2.0"
+x-collection-name: Azure Logic Apps
+x-complete: 1
+info:
+  title: LogicManagementClient
+  description: rest-api-for-azure-logic-apps-
+  version: 1.0.0
+host: management.azure.com
+basePath: /
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json

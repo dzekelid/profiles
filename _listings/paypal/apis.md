@@ -7,45 +7,42 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal
 x-kinRank: "10"
 x-alexaRank: "71"
 tags: Profiles
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/profiles/master/_listings/paypal/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Paypal Get Advanced Personal Data
-  x-api-slug: paypal
+- name: PayPal (Sandbox) - Get Advanced Personal Data
+  x-api-slug: permissionsgetadvancedpersonaldata-post
   description: Use the GetAdvancedPersonalData API operation to obtain sensitive personal
     data for an account holder.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
   humanURL: https://paypal.com
-  baseURL: https://svcs.sandbox.paypal.com////Permissions/GetAdvancedPersonalData
-  tags: Payments,Profiles
+  baseURL: https://svcs.sandbox.paypal.com//
+  tags: International, Payments, Billing, Merchant, Indie EdTech Data Jam, Getting
+    Started Example, Stack Network, Stack, Hypermedia API, Financial Services, Technology,
+    Mobile, SaaS, internet, Invoices, Payments, Payments, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/profiles/master/_listings/paypal/permissionsgetadvancedpersonaldata-post-openapi.md
-- name: Paypal Get Basic Personal Data
-  x-api-slug: paypal
+- name: PayPal (Sandbox) - Get Basic Personal Data
+  x-api-slug: permissionsgetbasicpersonaldata-post
   description: Use the GetBasicPersonalData API operation to obtain basic personal
     data for an account holder.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
   humanURL: https://paypal.com
-  baseURL: https://svcs.sandbox.paypal.com////Permissions/GetBasicPersonalData
-  tags: Payments,Profiles
+  baseURL: https://svcs.sandbox.paypal.com//
+  tags: International, Payments, Billing, Merchant, Indie EdTech Data Jam, Getting
+    Started Example, Stack Network, Stack, Hypermedia API, Financial Services, Technology,
+    Mobile, SaaS, internet, Invoices, Payments, Payments, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/profiles/master/_listings/paypal/permissionsgetbasicpersonaldata-post-openapi.md
-- name: Paypal
-  x-api-slug: paypal
-  description: PayPal is the faster, safer way to send money, make an online payment,
-    receive money or set up a merchant account.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
-  humanURL: https://paypal.com
-  baseURL: https://svcs.sandbox.paypal.com//
-  tags: Profiles
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/profiles/master/_listings/paypal/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://paylocity.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://paypal.stack.network
 - type: x-base-url
   url: https://api.paypal.com
 - type: x-crunchbase
